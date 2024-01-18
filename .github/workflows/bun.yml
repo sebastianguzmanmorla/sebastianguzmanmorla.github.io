@@ -15,7 +15,7 @@ jobs:
         uses: oven-sh/setup-bun@v1
         with:
           bun-version: latest
-          run: bun install && bun run build
+      - run: bun install && bun run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.3
         with:
