@@ -15,6 +15,10 @@ body {
 			rgba(255, 255, 255, 0.5) 0% 50%) bottom/1vh 1vh;
 }
 
+main {
+	height: calc(100vh - 60px);
+}
+
 .profile {
 	background: no-repeat center/80% url('./assets/Me.jpg');
 	background-position: center;
