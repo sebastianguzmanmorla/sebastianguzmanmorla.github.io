@@ -1,22 +1,31 @@
 {
-  "name": "src",
-  "type": "module",
-  "scripts": {
-    "dev": "vinxi dev",
-    "build": "vinxi build",
-    "start": "vinxi start"
-  },
-  "dependencies": {
-    "@popperjs/core": "^2.11.8",
-    "@solidjs/meta": "^0.29.2",
-    "@solidjs/router": "^0.10.7",
-    "@solidjs/start": "^0.4.6",
-    "bootstrap": "^5.3.2",
-    "solid-bootstrap": "^1.0.19",
-    "solid-js": "^1.8.10",
-    "vinxi": "0.1.1"
-  },
-  "engines": {
-    "node": ">=18"
-  }
+	"name": "src",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"bootstrap": "^5.3.2",
+		"react": "^18.2.0",
+		"react-bootstrap": "^2.10.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.21.2"
+	},
+	"devDependencies": {
+		"@types/react": "^18.2.43",
+		"@types/react-dom": "^18.2.17",
+		"@typescript-eslint/eslint-plugin": "^6.14.0",
+		"@typescript-eslint/parser": "^6.14.0",
+		"@vitejs/plugin-react-swc": "^3.5.0",
+		"eslint": "^8.55.0",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-refresh": "^0.4.5",
+		"typescript": "^5.2.2",
+		"vite": "^5.0.8"
+	}
 }
