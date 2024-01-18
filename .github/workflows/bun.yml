@@ -10,9 +10,6 @@ permissions:
   id-token: write
 jobs:
   build:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -23,6 +20,7 @@ jobs:
         with:
           bun-version: latest
       - run: bun install && bun run build
-      - uses: actions/jekyll-build-pages@v1.0.9
+      - uses: JamesIves/github-pages-deploy-action@v4.4.3
         with:
-          source: ./src/dist
+          branch: gh-pages
+          folder: dist
