@@ -20,7 +20,7 @@ main {
 }
 
 .profile {
-	background: no-repeat center/80% url('./assets/Me.jpg');
+	background: no-repeat center/80% url('/assets/Me.jpg');
 	background-position: center;
 	background-size: cover;
 	aspect-ratio: 1 / 1;
