@@ -22,4 +22,4 @@ jobs:
       - run: bun install && bun run build
       - uses: actions/jekyll-build-pages@v1.0.9
         with:
-          source: ./build
+          source: dist
