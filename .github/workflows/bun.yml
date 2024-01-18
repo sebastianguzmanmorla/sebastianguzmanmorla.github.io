@@ -20,7 +20,6 @@ jobs:
         with:
           bun-version: latest
       - run: bun install && bun run build
-      - uses: bitovi/github-actions-react-to-github-pages@v1.2.2
-        id: build-publish
+      - uses: actions/jekyll-build-pages@v1.0.9
         with:
-          path: build
+          source: ./build
