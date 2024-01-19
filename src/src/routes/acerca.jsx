@@ -6,7 +6,7 @@ export default function Acerca() {
 			<section>
 				<h1 className="text-center">Acerca de mi</h1>
 				<Row className="mt-5">
-					<Col className="p-2">
+					<Col md="6" className="p-2">
 						<Card className="shadow">
 							<Card.Header>
 								<h2>Resumen</h2>
@@ -54,7 +54,7 @@ export default function Acerca() {
 							</Card.Body>
 						</Card>
 					</Col>
-					<Col className="p-2">
+					<Col md="6" className="p-2">
 						<Card className="shadow">
 							<Card.Header>
 								<h2>Experiencia Profesional</h2>
