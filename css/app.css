@@ -9,6 +9,21 @@ main {
     aspect-ratio: 1 / 1;
 }
 
+.Tecnologia {
+    height: 80px;
+}
+
+.Tecnologia .Icon {
+    width: 50px;
+}
+
+.Tecnologia .Logo {
+    max-height: 50px;
+    max-width: 50px;
+    background-position: center;
+    background-size: cover;
+}
+
 #blazor-error-ui {
     background: lightyellow;
     bottom: 0;
