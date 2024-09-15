@@ -68,7 +68,7 @@ main {
 }
 
 .loading-progress-text:after {
-    content: var(--blazor-load-percentage-text, "Loading");
+    content: var(--blazor-load-percentage-text, "Cargando");
 }
 
 code {
