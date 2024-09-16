@@ -6,7 +6,7 @@
     <section>
         <div class="row">
             <div class="col-lg-9 col-md">
-                <h2>¡Hola, soy Sebastián Guzmán Morla!<br>👋</h2>
+                <h1>¡Hola, soy Sebastián Guzmán Morla!<br>👋</h1>
                 <p class="lead text-body-secondary mt-5">
                     Soy un apasionado Desarrollador de Software con más de 11 años
                     de experiencia en el campo, mi enfoque proactivo y autodidacta me ha permitido adaptarme a las
@@ -22,7 +22,7 @@
 
 <div class="my-5 container">
     <section>
-        <h3>Tecnologias Principales</h3>
+        <h3 class="mb-3">Tecnologías Principales</h3>
         <div class="row">
             @foreach (Model.Tecnologia Item in Tecnologias)
             {
@@ -42,6 +42,9 @@
         new () { Nombre = "ASP.NET Core", Logo = "./assets/Dotnet.png" },
         new () { Nombre = "Blazor", Logo = "./assets/Blazor.png" },
         new () { Nombre = ".NET MAUI", Logo = "./assets/Maui.png" },
-        new () { Nombre = "PHP", Logo = "./assets/PHP.png" }
+        new () { Nombre = "PHP", Logo = "./assets/PHP.png" },
+        new () { Nombre = "SQL Server", Logo = "./assets/SqlServer.png" },
+        new () { Nombre = "MySQL", Logo = "./assets/MySQL.png" },
+        new () { Nombre = "Redis", Logo = "./assets/Redis.svg" }
     ];
 }
