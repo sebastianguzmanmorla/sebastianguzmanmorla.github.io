@@ -1,17 +1,18 @@
 ﻿@page "/Contactame"
+@inject IStringLocalizer<Localizer> Localizer
 
-<PageTitle>Sebastián Guzmán Morla - Contáctame</PageTitle>
+<PageTitle>Sebastián Guzmán Morla - @Localizer["ContactameTitulo"]</PageTitle>
 
 <div class="my-5 text-center container">
     <section>
-        <h1>Contáctame</h1>
+        <h1>@Localizer["ContactameTitulo"]</h1>
         <div class="mt-5">
-            <p>Estoy entusiasmado para tener nuevos desafíos y oportunidades para seguir creciendo profesionalmente.</p>
-            <p>Conéctate conmigo en:</p>
+            <p>@Localizer["ContactameMensaje"]</p>
+            <p>@Localizer["ContactameSubtitulo"]</p>
             <div class="d-flex justify-content-center">
                 <div class="list-group">
                     <div class="list-group-item">
-                        <a class="link-light" href="https://github.com/Resume/" style="text-decoration: none;" target="_blank">
+                        <a class="link-light" href="https://github.com/sebastianguzmanmorla" style="text-decoration: none;" target="_blank">
                             <img src="./assets/GitHub_Mark_White.png" alt="GitHub" height="28">
                             <span class="ms-2">GitHub</span>
                         </a>

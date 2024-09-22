@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="LayoutAcerca" xml:space="preserve">
+    <value>Acerca de mi</value>
+  </data>
+  <data name="LayoutContactame" xml:space="preserve">
+    <value>Contáctame</value>
+  </data>
+  <data name="LayoutDesarrollado" xml:space="preserve">
+    <value>Desarrollado con </value>
+  </data>
+  <data name="AcercaTitulo" xml:space="preserve">
+    <value>Acerca de mi</value>
+  </data>
+  <data name="AcercaResumen" xml:space="preserve">
+    <value>Resumen</value>
+  </data>
+  <data name="AcercaHabilidades" xml:space="preserve">
+    <value>Habilidades Destacadas</value>
+  </data>
+  <data name="AcercaHabilidades1" xml:space="preserve">
+    <value>Desarrollo de aplicaciones web en PHP y .NET Core</value>
+  </data>
+  <data name="AcercaHabilidades2" xml:space="preserve">
+    <value>Administración y desarrollo back-end API en .NET Core</value>
+  </data>
+  <data name="AcercaHabilidades3" xml:space="preserve">
+    <value>Desarrollo de aplicaciones móviles en Xamarin y .NET MAUI</value>
+  </data>
+  <data name="AcercaHabilidades4" xml:space="preserve">
+    <value>Desarrollo DevOps y Continuous Integration</value>
+  </data>
+  <data name="AcercaHabilidades5" xml:space="preserve">
+    <value>Métodos ágiles y enfoques iterativos</value>
+  </data>
+  <data name="AcercaIdiomas" xml:space="preserve">
+    <value>Idiomas</value>
+  </data>
+  <data name="AcercaIdiomas1" xml:space="preserve">
+    <value>Inglés (Full Professional)</value>
+  </data>
+  <data name="AcercaIdiomas2" xml:space="preserve">
+    <value>Español (Native or Bilingual)</value>
+  </data>
+  <data name="AcercaCertificaciones" xml:space="preserve">
+    <value>Certificaciones</value>
+  </data>
+  <data name="AcercaExperiencia" xml:space="preserve">
+    <value>Experiencia Profesional</value>
+  </data>
+  <data name="AcercaExperiencia1" xml:space="preserve">
+    <value>Software Developer en VT Systems</value>
+  </data>
+  <data name="AcercaExperiencia1Fecha" xml:space="preserve">
+    <value>mar. 2012 &lt;br&gt;oct. 2023&lt;br&gt;11 años 8 meses</value>
+  </data>
+  <data name="AcercaExperiencia1_1" xml:space="preserve">
+    <value>Desarrollador de aplicaciones web en PHP, Java, .NET Core (MVC con Razor o Blazor), WCF (Windows Communication Foundation)</value>
+  </data>
+  <data name="AcercaExperiencia1_2" xml:space="preserve">
+    <value>Desarrollador de aplicaciones de escritorio en Windows Forms, WPF (Windows Presentation Foundation) y .NET MAUI</value>
+  </data>
+
+  <data name="AcercaExperiencia2" xml:space="preserve">
+    <value>Mobile Application Developer en VT Systems</value>
+  </data>
+  <data name="AcercaExperiencia2Fecha" xml:space="preserve">
+    <value>mar. 2020 &lt;br&gt;oct. 2023&lt;br&gt;3 años 8 meses</value>
+  </data>
+  <data name="AcercaExperiencia2_1" xml:space="preserve">
+    <value>Diseñador Líder de arquitectura de software para back-end API y aplicaciones móviles.</value>
+  </data>
+  <data name="AcercaExperiencia2_2" xml:space="preserve">
+    <value>Administrador y desarrollador back-end API en .NET Core.</value>
+  </data>
+  <data name="AcercaExperiencia2_3" xml:space="preserve">
+    <value>Administrador y desarrollador de aplicaciones móviles híbridas (Android e iOS) en Xamarin y .NET MAUI.</value>
+  </data>
+
+  <data name="AcercaExperiencia3" xml:space="preserve">
+    <value>DevOps Developer en VT Systems</value>
+  </data>
+  <data name="AcercaExperiencia3Fecha" xml:space="preserve">
+    <value>ene. 2021 &lt;br&gt;oct. 2023&lt;br&gt;2 años 10 meses</value>
+  </data>
+  <data name="AcercaExperiencia3_1" xml:space="preserve">
+    <value>Líder implementador y administrador del servidor de automatización para integración continua Jenkins</value>
+  </data>
+  <data name="AcercaExperiencia3_2" xml:space="preserve">
+    <value>Configuración de Webhooks en Bitbucket y GitHub para ejecución de tareas en Jenkins</value>
+  </data>
+  <data name="AcercaExperiencia3_3" xml:space="preserve">
+    <value>Desarrollador de archivos Jenkinsfile para implementación de pipeline y compilación de proyectos</value>
+  </data>
+  <data name="AcercaExperiencia3_4" xml:space="preserve">
+    <value>Implementador de Máquinas Virtuales o físicas con Windows Server o Linux para hospedar aplicaciones</value>
+  </data>
+
+  <data name="ContactameTitulo" xml:space="preserve">
+    <value>Contáctame</value>
+  </data>
+  <data name="ContactameMensaje" xml:space="preserve">
+    <value>Estoy entusiasmado para tener nuevos desafíos y oportunidades para seguir creciendo profesionalmente.</value>
+  </data>
+  <data name="ContactameSubtitulo" xml:space="preserve">
+    <value>Conéctate conmigo en:</value>
+  </data>
+  <data name="InicioHola" xml:space="preserve">
+    <value>¡Hola, soy Sebastián Guzmán Morla!</value>
+  </data>
+  <data name="InicioPresentacion" xml:space="preserve">
+    <value>Soy un apasionado Desarrollador de Software con más de 11 años de experiencia en el campo, mi enfoque proactivo y autodidacta me ha permitido adaptarme a las distintas necesidades del mercado del desarrollo de software.</value>
+  </data>
+  <data name="InicioTecnologias" xml:space="preserve">
+    <value>Tecnologías Principales</value>
+  </data>
+</root>

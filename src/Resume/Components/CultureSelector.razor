@@ -1,0 +1,32 @@
+@using System.Globalization
+@inject NavigationManager NavManager
+@inject IJSRuntime JSRuntime
+
+<div class="ms-auto navbar-nav">
+@foreach (Model.Culture Culture in Cultures)
+{
+    <a class="nav-link @(CultureInfo.CurrentCulture.Name == Culture.Info.Name ? "bg-light" : "")" @onclick="() => SetCulture(Culture)">
+        @Culture.Icon
+    </a>
+}
+</div>
+
+@code {
+    private List<Model.Culture> Cultures =
+    [
+        new () { Info = new CultureInfo("en-US"), Icon = "🇺🇸" },
+        new () { Info = new CultureInfo("es-CL"), Icon = "🇨🇱" }
+    ];
+
+    private void SetCulture(Model.Culture culture)
+    {
+        if (CultureInfo.CurrentCulture.Name != culture.Info.Name)
+        {
+            IJSInProcessRuntime js = (IJSInProcessRuntime)JSRuntime;
+
+            js.InvokeVoid("CultureSelector.set", culture.Info.Name);
+
+            NavManager.NavigateTo(NavManager.Uri, forceLoad: true);
+        }
+    }
+}

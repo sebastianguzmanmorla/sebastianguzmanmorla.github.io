@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="LayoutAcerca" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="LayoutContactame" xml:space="preserve">
+    <value>Contact Me</value>
+  </data>
+  <data name="LayoutDesarrollado" xml:space="preserve">
+    <value>Developed with</value>
+  </data>
+  <data name="AcercaTitulo" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AcercaResumen" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="AcercaHabilidades" xml:space="preserve">
+    <value>Key Skills</value>
+  </data>
+  <data name="AcercaHabilidades1" xml:space="preserve">
+    <value>Web Apps Development in PHP y .NET Core C#</value>
+  </data>
+  <data name="AcercaHabilidades2" xml:space="preserve">
+    <value>Project Management and Development back-end API in .NET Core C#</value>
+  </data>
+  <data name="AcercaHabilidades3" xml:space="preserve">
+    <value>Project Management and Mobile Software Development in Xamarin and .NET MAUI</value>
+  </data>
+  <data name="AcercaHabilidades4" xml:space="preserve">
+    <value>Implementation and Development of DevOps and Continuous Deployment</value>
+  </data>
+  <data name="AcercaHabilidades5" xml:space="preserve">
+    <value>Project Manager using Scrum agile methodology</value>
+  </data>
+  <data name="AcercaIdiomas" xml:space="preserve">
+    <value>Language Proficiency</value>
+  </data>
+  <data name="AcercaIdiomas1" xml:space="preserve">
+    <value>English (Full Professional)</value>
+  </data>
+  <data name="AcercaIdiomas2" xml:space="preserve">
+    <value>Spanish (Native or Bilingual)</value>
+  </data>
+  <data name="AcercaCertificaciones" xml:space="preserve">
+    <value>Certifications</value>
+  </data>
+  <data name="AcercaExperiencia" xml:space="preserve">
+    <value>Profesional Experience</value>
+  </data>
+  <data name="AcercaExperiencia1" xml:space="preserve">
+    <value>Software Developer in VT Systems</value>
+  </data>
+  <data name="AcercaExperiencia1Fecha" xml:space="preserve">
+    <value>mar. 2012 &lt;br&gt;oct. 2023&lt;br&gt;11 years 8 months</value>
+  </data>
+  <data name="AcercaExperiencia1_1" xml:space="preserve">
+    <value>Web Software Development in PHP, Java, .NET Core (MVC with Razor or Blazor), WCF (Windows Communication Foundation)</value>
+  </data>
+  <data name="AcercaExperiencia1_2" xml:space="preserve">
+    <value>Desktop Software Development in Windows Forms, WPF (Windows Presentation Foundation) and .NET MAUI</value>
+  </data>
+
+  <data name="AcercaExperiencia2" xml:space="preserve">
+    <value>Mobile Application Developer in VT Systems</value>
+  </data>
+  <data name="AcercaExperiencia2Fecha" xml:space="preserve">
+    <value>mar. 2020 &lt;br&gt;oct. 2023&lt;br&gt;3 years 8 months</value>
+  </data>
+  <data name="AcercaExperiencia2_1" xml:space="preserve">
+    <value>Leader designer of software architecture for back-end API and mobile apps</value>
+  </data>
+  <data name="AcercaExperiencia2_2" xml:space="preserve">
+    <value>Project Management and Development back-end API in .NET Core C#</value>
+  </data>
+  <data name="AcercaExperiencia2_3" xml:space="preserve">
+    <value>Project Management and Mobile Software Development in Xamarin and .NET MAUI</value>
+  </data>
+
+  <data name="AcercaExperiencia3" xml:space="preserve">
+    <value>DevOps Developer in VT Systems</value>
+  </data>
+  <data name="AcercaExperiencia3Fecha" xml:space="preserve">
+    <value>jan. 2021 &lt;br&gt;oct. 2023&lt;br&gt;2 years 10 months</value>
+  </data>
+  <data name="AcercaExperiencia3_1" xml:space="preserve">
+    <value>Deployment leader and management of Jenkins instance service to execute continuous deployment</value>
+  </data>
+  <data name="AcercaExperiencia3_2" xml:space="preserve">
+    <value>Management of Webhooks in Bitbucket and GitHub to execution of tasks in Jenkins</value>
+  </data>
+  <data name="AcercaExperiencia3_3" xml:space="preserve">
+    <value>Developer of Jenkinsfile’s to pipeline implementation and projects compilation in Jenkins</value>
+  </data>
+  <data name="AcercaExperiencia3_4" xml:space="preserve">
+    <value>Deployment of Virtual or Physical instances with Windows Server or Linux to host applications</value>
+  </data>
+
+  <data name="ContactameTitulo" xml:space="preserve">
+    <value>Contact Me</value>
+  </data>
+  <data name="ContactameMensaje" xml:space="preserve">
+    <value>I'm excited to take on new challenges and opportunities for professional growth.</value>
+  </data>
+  <data name="ContactameSubtitulo" xml:space="preserve">
+     <value>Get in touch at:</value>
+   </data>
+  <data name="InicioHola" xml:space="preserve">
+    <value>Hi, I'm Sebastián Guzmán Morla!</value>
+  </data>
+  <data name="InicioPresentacion" xml:space="preserve">
+    <value>As a seasoned Software Developer with more than 11 years of industry experience, I possess a proactive and autodidactic mindset that enables me to stay ahead of the curve and effectively meet the diverse demands of the software development landscape.</value>
+  </data>
+  <data name="InicioTecnologias" xml:space="preserve">
+    <value>Technical Expertise</value>
+  </data>
+</root>

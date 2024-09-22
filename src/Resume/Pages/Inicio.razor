@@ -1,4 +1,5 @@
 ﻿@page "/"
+@inject IStringLocalizer<Localizer> Localizer
 
 <PageTitle>Sebastián Guzmán Morla</PageTitle>
 
@@ -6,12 +7,8 @@
     <section>
         <div class="row">
             <div class="col-lg-9 col-md">
-                <h1>¡Hola, soy Sebastián Guzmán Morla!<br>👋</h1>
-                <p class="lead text-body-secondary mt-5">
-                    Soy un apasionado Desarrollador de Software con más de 11 años
-                    de experiencia en el campo, mi enfoque proactivo y autodidacta me ha permitido adaptarme a las
-                    distintas necesidades del mercado del desarrollo de software.
-                </p>
+                <h1>@Localizer["InicioHola"]<br />👋</h1>
+                <p class="lead text-body-secondary mt-5">@Localizer["InicioPresentacion"]</p>
             </div>
             <div class="p-3 col-lg-3 col-md">
                 <div class="rounded-circle profile shadow w-100"></div>
@@ -22,7 +19,7 @@
 
 <div class="my-5 container">
     <section>
-        <h3 class="mb-3">Tecnologías Principales</h3>
+        <h3 class="mb-3">@Localizer["InicioTecnologias"]</h3>
         <div class="row">
             @foreach (Model.Tecnologia Item in Tecnologias)
             {
