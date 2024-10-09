@@ -5,7 +5,7 @@
 <div class="ms-auto navbar-nav">
 @foreach (Model.Culture Culture in Cultures)
 {
-    <a class="nav-link @(CultureInfo.CurrentCulture.Name == Culture.Info.Name ? "bg-light" : "")" @onclick="() => SetCulture(Culture)">
+    <a class="nav-link @(CultureInfo.CurrentCulture.Name == Culture.Info.Name ? "bg-light text-dark rounded" : "")" @onclick="() => SetCulture(Culture)">
         @Culture.Icon
     </a>
 }
